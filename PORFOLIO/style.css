@@ -1,10 +1,10 @@
-
-/* Toàn bộ trang */
 body {
-    background-color: pink;
+    margin: 0;
+    background-color: lightpink;
     color: black;
+    font-family: Verdana;
 }
-/* Thanh menu */
+
 nav {
     height: 70px;
     background-color: lightcoral;
@@ -16,29 +16,25 @@ nav {
     padding: 0 60px;
 }
 
-
-/* Tên Portfolio */
 nav h2 {
     color: white;
 }
 
-
-/* Các link */
 nav a {
     color: white;
     text-decoration: none;
-
     margin-left: 25px;
-
     font-size: 16px;
 }
 
-
-/* Khi đưa chuột vào menu */
 nav a:hover {
-    color: #facc15;
+    color: yellow;
 }
 
+.content {
+    padding: 50px;
+}
 
-
-
+.content h2 {
+    color: darkred;
+}
