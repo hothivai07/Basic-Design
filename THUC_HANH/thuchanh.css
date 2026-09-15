@@ -1,38 +1,23 @@
-/* Đưa bảng ra giữa */
 table {
     margin: auto;
     border-collapse: collapse;
 }
 
-/* Dòng tiêu đề */
 .head {
     color: blue;
     font-size: 25px;
 }
 
-/* Các ô trong bảng */
 th, td {
     padding: 10px;
     border: 1px solid black;
 }
 
-/* Các dòng còn lại */
-.sinhvien1 {
+.sinhvien1, .sinhvien2, .sinhvien3 {
     background-color: lightpink;
     font-size: 14px;
 }
 
-.sinhvien2 {
-    background-color: lightpink;
-    font-size: 14px;
-}
-
-.sinhvien3 {
-    background-color: lightpink;
-    font-size: 14px;
-}
-
-/* Khi đưa chuột vào từng dòng */
 .sinhvien1:hover {
     background-color: red;
 }

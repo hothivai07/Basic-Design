@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenter {
+    display: flex;
+    width: 780px;
+    height: 500px;
+    gap: 6px;
+    margin: 20px auto;
+}
+
+/* Chia thành 2 cột */
+.div1,
+.div2 {
+    width: 50%;
+}
+
+/* Ảnh */
+.hop1,
+.hop2,
+.hop3,
+.hop4,
+.hop5 {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+/* Chiều cao từng ảnh */
+
+.hop1 {
+    height: 250px;
+}
+
+.hop5 {
+    height: 100px;
+}
+
+.hop2 {
+    height: 250px;
+}
+
+.hop3 {
+    height: 300px;
+}
+
+.hop4 {
+    height: 306px;
+}
+
+/* Hình ảnh */
+.hop1 img,
+.hop2 img,
+.hop3 img,
+.hop4 img,
+.hop5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

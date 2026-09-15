@@ -1,0 +1,15 @@
+/* span{
+    color: red;
+   font-weight: bold;
+}
+.mauvang {
+    background-color: yellow;
+    color: red;
+}
+.mauvang:hover {
+    background-color: blue;
+    color: white;
+} */
+p {
+    display: inline;
+}
