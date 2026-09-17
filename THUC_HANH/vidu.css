@@ -1,0 +1,24 @@
+
+.parent {
+    position: relative;
+    width: 300px ;
+    height: 200px;
+    background-color: blue;
+    object-fit: cover;
+}
+.child {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: palegoldenrod;
+    width: 100px;
+    height: 100px;
+}
+.childs {
+    position: relative;
+    bottom: 79px;
+    left: 150px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}

@@ -10,13 +10,11 @@
     margin: 20px auto;
 }
 
-/* Chia thành 2 cột */
 .div1,
 .div2 {
     width: 50%;
 }
 
-/* Ảnh */
 .hop1,
 .hop2,
 .hop3,
@@ -26,9 +24,7 @@
     margin-bottom: 6px;
 }
 
-/* Chiều cao từng ảnh */
-
-.hop1 {
+.hop1, .hop2 {
     height: 250px;
 }
 
@@ -36,19 +32,10 @@
     height: 100px;
 }
 
-.hop2 {
-    height: 250px;
+.hop3, .hop4 {
+    height: 303px;
 }
 
-.hop3 {
-    height: 300px;
-}
-
-.hop4 {
-    height: 306px;
-}
-
-/* Hình ảnh */
 .hop1 img,
 .hop2 img,
 .hop3 img,
